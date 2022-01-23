@@ -1,0 +1,142 @@
+/*----------------------------------------------------
+
+Template Name   : 
+Description     :
+Author          :
+Version         :
+
+------------------------------------------------------
+
+-----------------------------------------------------*/
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+/*---- Theme default css
+============================================= */
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #3E3E3E;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 7.8rem;
+} 
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 4.8rem;
+}
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.primary-font {
+    font-family: 'Bebas Neue', cursive;
+}
+.secondary-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-bg-color {
+    background-color: #FFFBF0;
+}
+.custom-btn{
+    border: 0;
+    font-size: 2rem;
+    background-color:#A4BC46;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    transition:  background-color .8s ease , color .8s ease;
+}
+.custom-btn:hover{
+    background-color: #FABE4C;
+    color: #363958;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(163, 197, 27, 0.456);
+}
+/* ==============================
+        header area 
+   =============================== */
+.header-area .main-logo img {
+    width: 46rem;
+}
+.header-area .main-menu .nav-item {
+    padding: 0 2rem;
+}
+.header-area .main-menu .nav-item .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3C3C3C;
+    font-size: 2rem;
+    display: inline-block;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+}
+.header-area .main-menu .nav-item .nav-link:hover {
+    border-bottom: 2px solid #657a0e;
+}
+.header-area .main-menu .nav-item:last-child {
+    padding-right: 0;
+}
+.banner-area {
+    background-color: #FFFBF0;
+}
+.banner-area .banner-content{
+    background-color: #FFFBF0;
+    height: 80vh;
+    min-height: 80rem;
+}
+.banner-area .banner-content h1 {
+    color: #363958;
+    font-size: 7.8rem;
+    line-height: 9.6rem;
+}
+.banner-area .banner-content span {
+    color: #FABE4C; 
+}
+
+/* women jacket */
+.item-card {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.item-card .photo{
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+}
+.item-card h3 {
+    text-transform: uppercase;
+    color: #363958;
+    font-size: 2.1rem;
+    margin:1.2rem 0;
+}
+.item-card .price-area span{
+    font-weight: 700;
+    color: #FABE4C;
+    font-size: 3.6rem;
+}
