@@ -140,3 +140,36 @@ h6 {
     color: #FABE4C;
     font-size: 3.6rem;
 }
+/* information area  */
+
+.information .information-item {
+   border-radius: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   transition: transform .8s ease ;
+}
+.information .information-item:hover {
+   
+   transform: translateX(2rem);
+}
+
+.information .logo {
+    width: 7.8rem;
+    padding-right: 2rem;
+}
+
+.information .data h3 {
+    color: #363958;
+    text-transform: capitalize;
+}
+/* footer  */
+.footer {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #363958;
+    padding: 3rem;
+}
+.footer p {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 0;
+}
