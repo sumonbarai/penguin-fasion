@@ -82,6 +82,9 @@ h6 {
 /* ==============================
         header area 
    =============================== */
+   .header-area {
+       overflow: hidden;
+   }
 .header-area .main-logo img {
     width: 46rem;
 }
@@ -106,18 +109,24 @@ h6 {
 .banner-area {
     background-color: #FFFBF0;
 }
+
 .banner-area .banner-content{
     background-color: #FFFBF0;
+    padding-top: 15rem;
     height: 80vh;
-    min-height: 80rem;
 }
 .banner-area .banner-content h1 {
     color: #363958;
     font-size: 7.8rem;
     line-height: 9.6rem;
+    padding-top: 3rem;
 }
 .banner-area .banner-content span {
     color: #FABE4C; 
+}
+
+.banner-image {
+    width: 100%;
 }
 
 /* women jacket */
@@ -173,3 +182,61 @@ h6 {
     font-size: 1.6rem;
     margin: 0;
 }
+
+/* responsive  */
+@media (max-width: 1199.98px) {
+    .header-area .main-menu .nav-item {
+        padding: 0 1.5rem;
+    }
+    .header-area .main-logo img {
+        width: 37rem;
+    }
+}
+@media (max-width: 991.98px) {
+    html {
+        font-size: 55.5%;
+    }
+    .banner-area .banner-content{
+        min-height: 600px;
+    }
+    .navbar-toggler-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .banner-area .banner-content {
+        height: 55vh;
+    }
+}
+@media (max-width: 767.98px) {
+    html {
+        font-size: 50.5%;
+    }
+    .banner-area .banner-content{
+        min-height: 700px;
+    }
+    .banner-area .banner-content {
+        padding-top: 6rem;
+    }
+    .banner-area .banner-content h1 {
+        font-size: 5.8rem;
+        line-height: 6.6rem;
+    }
+    .banner-image {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+    .header-area .main-logo img {
+        width: 30rem;
+    }
+    .banner-area .banner-content{
+        min-height: 600px;
+    }
+    .custom-btn {
+        font-size: 1.5rem;
+        padding: .8rem 2rem;
+    }
+ }
